@@ -1,8 +1,8 @@
 import "package:flutter/material.dart";
 import "package:google_fonts/google_fonts.dart";
 
-class StyledText extends StatelessWidget {
-  const StyledText(this.text, {super.key});
+class HeaderText extends StatelessWidget {
+  const HeaderText(this.text, {super.key});
 
   final String text;
 
@@ -13,7 +13,9 @@ class StyledText extends StatelessWidget {
       style: GoogleFonts.montserrat(
         color: Colors.white,
         fontSize: 20,
+        fontWeight: FontWeight.bold,
       ),
+      textAlign: TextAlign.center,
     );
   }
 }

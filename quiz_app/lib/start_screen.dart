@@ -1,5 +1,5 @@
 import "package:flutter/material.dart";
-import "package:quiz_app/styled_text.dart";
+import 'package:quiz_app/styles/styled_header_text.dart';
 
 class StartScreen extends StatelessWidget {
   const StartScreen(this.startQuiz, {super.key});
@@ -22,7 +22,7 @@ class StartScreen extends StatelessWidget {
             height: 60,
           ),
 //______________________________________________________________________________
-          const StyledText("Learn Flutter The Fun Way!"),
+          const HeaderText("Learn Flutter The Fun Way!"),
 //______________________________________________________________________________
           const SizedBox(
             height: 30,
